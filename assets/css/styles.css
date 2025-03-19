@@ -529,8 +529,27 @@ img {
     margin-bottom: 0;
 }
 
-.mv .mv__slider li {
+.mv .mv__slider .item {
+    width: 100%;
+    height: 500px;
+}
 
+.mv .mv__slider .item.item1 {
+    background: url(../images/slider.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.mv .mv__slider .item.item2 {
+    background: url(../images/slider.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.mv .mv__slider .item.item3 {
+    background: url(../images/slider.png) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .mv .mv__slider .slick-arrow {

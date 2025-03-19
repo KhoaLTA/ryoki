@@ -32,10 +32,23 @@
 .under .breadcrumb li {
     color: var(--black-color);
     font-weight: 500;
+    position: relative;
+}
+
+.under .breadcrumb li:not(:last-child)::before {
+    content: '';
+    border: solid var(--main-color);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+    transform: rotate(-45deg) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    right: -16px;
 }
 
 .under .breadcrumb li:not(:last-child) {
-    margin-right: 10px;
+    margin-right: 26px;
 }
 
 .under .breadcrumb li a {

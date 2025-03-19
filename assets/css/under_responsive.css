@@ -90,20 +90,28 @@
 
     .under .box__h2 {
         margin-top: 67px;
-        height: 200px;
+        height: 280px;
     }
 
     .h2__ttl {
         font-size: 30px;
+        line-height: 1.3;
     }
 
     .under .breadcrumb {
-        height: 35px;
+        height: auto;
+        padding: 0 10px;
+        flex-wrap: wrap;
+        min-height: 35px;
     }
 
     .under .breadcrumb li,
     .under .breadcrumb li a {
-        font-size: 14px;
+        font-size: 12px;
+    }
+
+    .under .breadcrumb li:not(:last-child)::before {
+        border-width: 0 1px 1px 0;
     }
 
     .under .main__layout .layout__navi {
@@ -149,6 +157,10 @@
 
     .under .equipment_regeneration--ttl {
         font-size: 16px;
+    }
+
+    .under .factory__frame {
+        padding: 10px;
     }
 
     .under .factory__frame .factory__frame--ttl {
