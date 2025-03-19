@@ -1,0 +1,17 @@
+:root {
+    --black-color: #000;
+    --white-color: #fff;
+    --gray-color: #e0e0e0;
+
+    --main-color: #ff0000;
+    --sub-color: #00afe9;
+
+    --border-main-color: #f22d2d;
+    --border-table-color: #dee2e6;
+
+    --bg-top-main-color: #f2f2f2;
+    --bg-table-th-color: #dee2e6;
+    --bg-h_info: #000;
+
+    --transition-default: all ease 0.4s;
+}

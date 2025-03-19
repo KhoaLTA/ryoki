@@ -1,0 +1,157 @@
+@media screen and (max-width: 768px) {
+    p {
+        font-size: 14px;
+    }
+
+    p:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    .under .tb-block {
+        width: 100%;
+    }
+
+    .under .tb-block th {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .under .tb-block td {
+        width: 100%;
+        display: block;
+    }
+
+    .under table.table tr th {
+        text-align: center;
+    }
+
+    .under table.table tr td {
+        font-size: 14px;
+    }
+
+    .under table.table tr:not(:last-child) th,
+    .under table.table tr:not(:last-child) td {
+        border-bottom: none;
+    }
+
+    .under .tb-wrapper {
+        width: 100%;
+        overflow-x: scroll;
+        padding-bottom: 5px;
+    }
+
+    .under .tb-wrapper .tb-scroll {
+        width: 748px;
+    }
+
+    .under .tb-note {
+        margin-bottom: 0;
+        color: #f00;
+        font-size: 12px;
+        font-style: italic;
+    }
+
+    .list01 li {
+        padding-left: 25px;
+        font-size: 14px;
+    }
+
+    .list01 li::before {
+        left: 10px;
+        top: 6px;
+    }
+
+    .list02 li {
+        font-size: 14px;
+    }
+
+    .under .icon__next {
+        padding-left: 15px;
+        display: block;
+    }
+
+    .under .icon__next::before {
+        width: 12px;
+        height: 12px;
+        top: 10px;
+    }
+
+    .under .section {
+        padding: 0 0 30px;
+    }
+
+    .under .image_r,
+    .under .image_l {
+        float: unset;
+        margin: 0 auto 10px;
+        text-align: center;
+    }
+
+    .under .box__h2 {
+        margin-top: 67px;
+        height: 200px;
+    }
+
+    .h2__ttl {
+        font-size: 30px;
+    }
+
+    .under .breadcrumb {
+        height: 35px;
+    }
+
+    .under .breadcrumb li,
+    .under .breadcrumb li a {
+        font-size: 14px;
+    }
+
+    .under .main__layout .layout__navi {
+        display: none;
+    }
+
+    .under .main__layout .layout__content {
+        width: 100%;
+    }
+
+    .under .h3__under {
+        font-size: 24px;
+        margin-bottom: 20px;
+        padding-bottom: 5px;
+    }
+
+    .under .h3__under::before {
+        width: 100px;
+    }
+
+    .under .h4__under {
+        font-size: 18px;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+
+    .under .h4__under::before {
+        width: 50px;
+    }
+
+    .d-flex__span span {
+        margin-right: 5px;
+    }
+
+    .under .equipment_regeneration--flex {
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    .under .equipment_regeneration--item {
+        width: 100%;
+    }
+
+    .under .equipment_regeneration--ttl {
+        font-size: 16px;
+    }
+
+    .under .factory__frame .factory__frame--ttl {
+        font-size: 18px;
+    }
+}
